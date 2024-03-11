@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Analizador de texto</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+<header> 
+<h1>Analizador de Texto</h1>
+</header>
+
+<ul> 
+  <li class="conteo" data-testid="word-count"> Palabras: 0</li>
+  <li class="conteo" data-testid="character-count"> Caracteres: 0</li>
+  <li class="conteo" data-testid="character-no-spaces-count"> Caracteres sin Espacios: 0</li>
+  <li class="conteo" data-testid="number-count">Números: 0</li>
+  <br>
+  <li class="conteo" data-testid="number-sum">Suma total de números: 0</li>
+  <li class="conteo" data-testid="word-length-average">Longitud media de las Palabras: 0</li>
+</ul>
+
+<textarea name="user-input" rows="10" cols="50" placeholder="Copia tu texto aquí..."></textarea>
+
+<br>
+
+<button id="reset-button">Volver a analizar</button>
+
+<footer>
+  <p><strong>Autor:</strong> Silvia Pineda</p>
+</footer>
+
+  <script src="index.js" type="module"></script>
+</body>
+
+</html>
