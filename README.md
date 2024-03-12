@@ -2,7 +2,7 @@ ANALIZADOR DE TEXTO
 
 Bienvenido a tu "Analizador de Texto".
 
-Esta aplicación te permiirá analizar el contenido de un texto ingresado y obtener diversas métricas sobre él.
+Esta aplicación te permitirá analizar el contenido de un texto ingresado y obtener diversas métricas sobre él.
 
 Características:
 Este analizador tiene las siguientes funciones:
